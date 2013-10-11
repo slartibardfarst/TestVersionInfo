@@ -20,4 +20,4 @@ ParameterTest
 
 
 Write-Host $env:build_number
-$env.MAJOR = 69
+$env:MAJOR = 69
