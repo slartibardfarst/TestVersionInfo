@@ -24,4 +24,4 @@ $env:MAJOR = 69
 
 echo "##teamcity[message text='oops' errorDetails='' status='ERROR']"
 
-echo "##teamcity[buildNumber '1.2.3.4']"
+echo "##teamcity[buildNumber '5.6.7.8']"
