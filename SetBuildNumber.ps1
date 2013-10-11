@@ -21,3 +21,5 @@ ParameterTest
 
 Write-Host $env:build_number
 $env:MAJOR = 69
+
+echo "##teamcity[message text='oops' errorDetails='' status='ERROR']"
