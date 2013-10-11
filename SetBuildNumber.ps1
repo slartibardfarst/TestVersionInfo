@@ -41,7 +41,8 @@ function Update-SourceVersion
      move-item $TmpFile $o.FullName -force
      
      #now notify TeamCity of our new version string (http://confluence.jetbrains.com/display/TCD5/Build+Script+Interaction+with+TeamCity#BuildScriptInteractionwithTeamCity-ReportingBuildStatus)
-     echo "##teamcity[buildNumber '" + $updatedAssemblyVersion + "']"
+     Write-Host -NoNewline "##teamcity[buildNumber '"$updatedAssemblyVersion"']"
+     Write-Host
   }
 }
 
