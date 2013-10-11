@@ -18,5 +18,6 @@ Function ParameterTest
 ParameterTest
 #>
 
-Write-Host $env:PATH
+
 Write-Host $env:build_number
+$env.MAJOR = 69
