@@ -1,3 +1,4 @@
+<#
 param(
     [parameter(Mandatory=$true)] [string]$arg1,
     [parameter(Mandatory=$true)] [string]$arg2,
@@ -15,3 +16,7 @@ Function ParameterTest
 }
 
 ParameterTest
+#>
+
+Write-Host $env:PATH
+Write-Host $env:build_number
