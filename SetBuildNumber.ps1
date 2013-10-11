@@ -23,3 +23,5 @@ Write-Host $env:build_number
 $env:MAJOR = 69
 
 echo "##teamcity[message text='oops' errorDetails='' status='ERROR']"
+
+echo "##teamcity[buildNumber '1.2.3.4']"
